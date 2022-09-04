@@ -1,0 +1,17 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("cells-web-background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.cell2 {
+  position: relative;
+  top: 1090px;
+  left: 179px;
+}

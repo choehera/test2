@@ -1,0 +1,62 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.cell1 {
+  transform: translate(50px, 100px);
+}
+
+.cell1 {
+  position: relative;
+  top: 40px;
+  left: 400px;
+}
+
+
+.page {
+  animation: transitionIn 3s;
+}
+
+
+@keyframes transitionIn {
+  from {
+  opacity: 0;
+  transform: rotateX(0deg)
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+}
+
+.text1 {
+  position: relative;
+  top: 150px;
+  left: 460px;
+  line-height: 1.8em;
+  color: rgb(65, 65, 148);
+}
+
+
+.text2 {
+  position: relative;
+  width: 800px;
+  top: 250px;
+  left: 460px;
+  line-height: 1.8em;
+  color: rgb(65, 65, 148);
+  text-indent: 40px;
+}
+
+
+@media all and (max-width:500px) {
+  body {
+    font-size:12px
+  }
+}

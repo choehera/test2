@@ -1,0 +1,29 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cells-enter {
+  position: relative;
+  top: 240px;
+  left: 100px;
+
+}
+
+.page1 {
+  animation: transitionIn 1s;
+}
+
+
+@keyframes transitionIn {
+  from {
+  opacity: 0;
+  transform: rotateX(-10deg)
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+}
